@@ -22,9 +22,27 @@ The website describes the hoodies as cotton-rich fleece with a soft brushed insi
 
 ## Project files
 
+```text
+html-css-assignment/
+├── index.html
+├── css/
+│   └── style.css
+├── images/
+│   └── hoodie product photos
+├── screenshots/
+│   ├── navigation-bar.png
+│   ├── single-card.png
+│   ├── multiple-cards.png
+│   └── complete-page.png
+└── README.md
+```
+
+The `screenshots/` folder is ready for the four assignment captures listed above; those image files have not been added yet.
+
 - `index.html` — the webpage content
 - `css/style.css` — the page styles
-- Hoodie photos — stored in the project folder
+- `images/` — hoodie product photos used by the webpage
+- `screenshots/` — screenshots for the navigation bar, cards, and complete page
 
 ## How to view the website
 
@@ -36,5 +54,4 @@ I practiced organizing a webpage with HTML, styling text and page sections with 
 
 ## AI use
 
-OpenAI Codex helped draft and revise the HTML content and this README. I reviewed the wording and asked for simpler content and a design that uses my hoodie photos. I should be ready to explain the code and make changes myself.
-
+OpenAI helped draft and revise the HTML content and this README. I reviewed the wording and asked for simpler content and a design that uses my hoodie photos. I should be ready to explain the code and make changes myself.
