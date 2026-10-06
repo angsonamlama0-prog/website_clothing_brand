@@ -117,12 +117,43 @@ h2 em {
     line-height: 22px;
 }
 
-.hoodie-photo {
-    width: 270px;
-    height: 340px;
+.hoodie-cards {
+    width: 1240px;
+    margin: 25px auto;
+}
+
+.hoodie-card {
+    display: inline-block;
+    width: 280px;
     margin: 8px;
-    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid #ddddda;
+    border-radius: 6px;
+    background-color: white;
+    text-align: left;
     vertical-align: top;
+}
+
+.hoodie-card img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+
+.hoodie-card-content {
+    padding: 15px;
+}
+
+.hoodie-card h3 {
+    margin: 0 0 10px;
+    font-family: Georgia, serif;
+}
+
+.hoodie-card p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 /* Simple decorative welcome section */
@@ -194,6 +225,7 @@ blockquote {
 .site-footer > p {
     color: #666666;
 }
+
 
 
 
